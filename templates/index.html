@@ -905,7 +905,7 @@
                 </div>
               </div>
               <div class="notice">
-                <a href="http://">{{notice.notices.0.subject}}</a>
+                <a href="media/{{notice.notices.0.file}}">{{notice.notices.0.subject}}</a>
               </div>
             </div>
             {% comment %} {% endfor %} {% endcomment %}
@@ -920,7 +920,7 @@
                 </div>
               </div>
               <div class="notice">
-                {{notice.notices.1.subject}}
+                <a href="media/{{notice.notices.1.file}}">{{notice.notices.1.subject}}</a>
               </div>
             </div>
             <div class="noticeItem">
@@ -933,7 +933,7 @@
                 </div>
               </div>
               <div class="notice">
-                {{notice.notices.2.subject}}
+                <a href="media/{{notice.notices.2.file}}">{{notice.notices.2.subject}}</a>
               </div>
             </div>
             <div class="noticeItem">
@@ -946,7 +946,7 @@
                 </div>
               </div>
               <div class="notice">
-                {{notice.notices.3.subject}}
+                <a href="media/{{notice.notices.3.file}}">{{notice.notices.3.subject}}</a>
               </div>
             </div>
             <div class="noticeItem">
@@ -959,7 +959,7 @@
                 </div>
               </div>
               <div class="notice">
-                {{notice.notices.4.subject}}
+                <a href="media/{{notice.notices.4.file}}">{{notice.notices.4.subject}}</a>
               </div>
             </div>
             {% comment %} </div>
@@ -1031,7 +1031,7 @@
                 </div>
               </div>
               <div class="notice">
-              <a href={{events.event.0.file}}>{{events.events.0.heading}}</a>
+              <a href="media/{{events.events.0.file}}">{{events.events.0.heading}}{{events.event.0.file}}</a>
               </div>
             </div>
 
@@ -1046,7 +1046,7 @@
                 </div>
               </div>
               <div class="notice">
-              <a href={{events.event.1.file}}>{{events.events.1.heading}}</a>
+              <a href="media/{{events.events.1.file}}">{{events.events.1.heading}}</a>
               </div>
             </div>
 
@@ -1060,7 +1060,7 @@
                 </div>
               </div>
               <div class="notice">
-              <a href={{events.event.2.file}}>{{events.events.2.heading}}</a>
+              <a href="media/{{events.events.2.file}}">{{events.events.2.heading}}</a>
               </div>
             </div>
 
@@ -1074,7 +1074,7 @@
                 </div>
               </div>
               <div class="notice">
-              <a href={{events.event.3.file}}>{{events.events.3.heading}}</a>
+              <a href="media/{{events.events.3.file}}">{{events.events.3.heading}}</a>
               </div>
             </div>
 
@@ -1088,7 +1088,7 @@
                 </div>
               </div>
               <div class="notice">
-              <a href={{events.event.4.file}}>{{events.events.4.heading}}</a>
+              <a href="media/{{events.events.4.file}}">{{events.events.4.heading}}</a>
               </div>
             </div>
 {% comment %} 

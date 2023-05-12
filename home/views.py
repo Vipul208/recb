@@ -53,6 +53,7 @@ def index(request):
 
     }
     events = event.objects.all().order_by('-id')
+    print(events)
 
     for i in range (0,5):
         month = events[i].date.month
